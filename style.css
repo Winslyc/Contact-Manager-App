@@ -1,3 +1,30 @@
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
+}
+li {
+  background-color: rgb(70, 206, 224);
+  border-radius: 10px;
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+ul {
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+button {
+  display: inline-block;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  background: rgb(70, 206, 224);
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+}
+.btn {
+  color: black;
 }

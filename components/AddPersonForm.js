@@ -24,7 +24,7 @@ function AddPersonForm(props) {
         onChange={handleChange}
         value={person}
       />
-      <button type="submit">Add</button>
+      <button type="submit" className="btn">Add</button>
     </form>
   );
 }
